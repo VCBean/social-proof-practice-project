@@ -6,7 +6,6 @@
 
 body {
   font-family: "Spartan", sans-serif;
-  padding: 50px;
   background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-desktop.svg");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
@@ -27,6 +26,9 @@ p {
 }
 
 @media (min-width: 576px) {
+  body {
+      padding: 50px;
+  }
   h1 {
     width: 66%;
     text-align: left;
